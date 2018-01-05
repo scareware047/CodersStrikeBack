@@ -1,4 +1,8 @@
-#pragma GCC optimize "Ofast,mavx2,omit-frame-pointer,inline,unroll-loops"
+#pragma GCC optimize ("Ofast,omit-frame-pointer,inline,unroll-loops")
+#pragma GCC option("arch=native","tune=native","no;-zero-upper") // AVX
+#pragma GCC target("avx") // AVX
+
+// AUTO VECTORIZATION FOR FOR LOOPS
 
 #include <iostream>
 #include <immintrin.h>
