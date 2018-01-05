@@ -2,7 +2,7 @@
 #pragma GCC option("arch=native","tune=native","no;-zero-upper") // AVX
 #pragma GCC target("avx") // AVX
 
-// AUTO VECTORIZATION FOR FOR LOOPS
+// avx not used.
 
 #include <iostream>
 #include <immintrin.h>
